@@ -1,0 +1,35 @@
+// @mixin responsive($breakpoint){
+
+//     @if($breakpoint == phone)
+//     {
+//         @media only screen and (max-width:600px)
+//         {
+//             @content
+//         };
+//     }
+
+//     @if($breakpoint == tablet)
+//     {
+//         @media only screen and (max-width:767px){
+//             @content
+//         };
+//         @if($breakpoint == desktop){
+//             @media only screen and (max-width:1200px){
+//                 @content
+//             }
+//         }
+//     }
+
+// }
+
+$layout-breakpoint-small: 0px;
+$max-width:600px;
+
+@media only screen and (min-width: $layout-breakpoint-small) and (max-width: $max-width) {
+  .cards  {
+    display: block ;
+  }
+  .header__logo__content {
+      margin-top: 20em !important;
+  }
+}

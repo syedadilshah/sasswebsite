@@ -1,0 +1,43 @@
+.header{
+    height: 100vh;
+    background-color: $black;
+    padding: 0px 20px;
+    
+    &__brand{
+        h4 {
+            color:$white;
+            font-size: 50px;
+            font-weight: 200;
+            letter-spacing: 3px;
+        }
+    }
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+     &__content {
+         margin-top: 11rem;
+         h1{
+             font-size: 4rem;
+             color: $white;
+             font-weight: 200;
+             text-transform: uppercase;
+             letter-spacing: 4px;
+             display: block;
+         }
+        }
+         &__button{
+             button {
+                 width: 15rem;
+                 height: 2rem;
+
+                 &:hover {
+                    background-color: red;
+                 }
+             }
+         
+     }
+    }
+      
+}

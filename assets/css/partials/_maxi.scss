@@ -1,0 +1,27 @@
+@mixin maxi() {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.max-section {
+
+    .max-content {
+        h1 { 
+        @include maxi();
+        }
+    }
+        .max-content1
+        {
+        h1 {
+            background-color: green;
+            @include maxi();
+            padding: 30px 0px;
+            color: white;
+            font-weight: 100;
+
+        }
+    }
+ 
+}
